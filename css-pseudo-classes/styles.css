@@ -10,11 +10,11 @@ button:hover {
   cursor: pointer;
 }
 
-tr:nth-child(odd) {
-  background-color: lightgray;
-}
-
-.table-headers:nth-child(1) {
+th {
   color: white;
   background-color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
 }
