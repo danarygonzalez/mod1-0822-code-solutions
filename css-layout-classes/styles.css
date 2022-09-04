@@ -13,7 +13,6 @@
 }
 
 .column-one-fourth {
-  flex-wrap: wrap;
   width: calc(100% / 4);
 }
 
