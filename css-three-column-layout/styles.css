@@ -1,0 +1,52 @@
+body {
+  font-family: lato, sans-serif;
+  color: white;
+  background-color: #1996da;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  padding: 20px 60px;
+}
+
+.column-one-third {
+  width: calc(100% /3);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.background-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-full {
+  width: 100%;
+  text-align: center;
+}
+
+.img-circle {
+  background: white;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.features {
+  text-align: center;
+  padding: 0.2rem;
+}
