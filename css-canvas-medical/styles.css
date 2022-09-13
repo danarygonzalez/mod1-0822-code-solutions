@@ -48,6 +48,10 @@ a {
   width: 100%;
 }
 
+.hero-summary {
+  padding-bottom: 3rem;
+}
+
 .img-hero {
   width: 92%;
   padding-top: 2rem;
@@ -72,4 +76,30 @@ a {
   position: absolute;
   top: 400px;
   left: 350px;
+}
+
+.clinician-list {
+  background-color: lightgray;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.clinician-header {
+  text-align: center;
+}
+
+.clinician-header p {
+  width: 40%;
+  margin-left: 19rem;
+}
+
+.physician-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.office {
+  flex-basis: calc(100%/2);
+  text-align: center;
 }
