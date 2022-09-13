@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -30,6 +30,7 @@ a {
 
 .column-three-fourths {
   width: 60%;
+  padding-left: 90px;
 }
 
 .canvas-logo {
@@ -41,4 +42,34 @@ a {
 .nav-options {
   display: flex;
   padding-top: 2rem;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.img-hero {
+  width: 92%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.img-h2 {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+}
+
+.img-p {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 30%;
+}
+
+.img-button {
+  position: absolute;
+  top: 400px;
+  left: 350px;
 }
