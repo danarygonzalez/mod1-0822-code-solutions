@@ -23,8 +23,8 @@ a {
 }
 
 .nav-bar {
-  padding-bottom: 1rem;
-  border-bottom: solid gray;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px #c3c3c3;
 }
 
 .contact-us {
@@ -32,6 +32,16 @@ a {
   color: white;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.btn-contact-us {
+  padding: 0.5rem;
+  position: relative;
+  bottom: 8px;
+  background-color: #294464;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
 }
 
 .column-one-fourth {
@@ -58,12 +68,18 @@ a {
   padding-top: 2rem;
 }
 
+.nav-options a {
+  color: #c3c3c3;
+  text-decoration: none;
+}
+
 .column-full {
   width: 100%;
 }
 
 .hero-summary {
   padding-bottom: 3rem;
+  color: white;
 }
 
 .img-hero {
@@ -73,10 +89,20 @@ a {
   position: relative;
 }
 
+.overlay {
+  position: absolute;
+  top: 100px;
+  right: 340px;
+  bottom: 200px;
+  left: 294px;
+  background: linear-gradient(transparent, rgb(0 0 0 / 50%));
+}
+
 .img-h2 {
   position: absolute;
   top: 150px;
   left: 350px;
+  font-weight: normal;
 }
 
 .img-p {
@@ -84,18 +110,27 @@ a {
   top: 200px;
   left: 350px;
   width: 30%;
+  font-size: 14px;
+  line-height: 1.5rem;
 }
 
 .img-button {
   position: absolute;
   top: 400px;
   left: 350px;
+  background-color: #294464;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 1rem 2.5rem;
+  font-size: 15px;
 }
 
 .clinician-list {
   background-color: #fafafa;
   padding-top: 2rem;
   padding-bottom: 4rem;
+  color: #7b7b7b;
 }
 
 .clinician-header {
@@ -118,28 +153,50 @@ a {
   text-align: center;
 }
 
-.get-started {
-  position: relative;
-  left: 350px;
-  top: 40px;
-}
-
 .learn-more {
   padding-left: 1rem;
+  padding-bottom: 0.8rem;
+  color: #7b7b7b;
+}
+
+.learn-more p {
+  font-size: 12px;
+}
+
+.btn-get-started {
+  position: relative;
+  left: 300px;
+  top: 25px;
+  background-color: #294464;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.7rem 2rem;
 }
 
 .company-info {
   background-color: #525351;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  color: white;
+}
+
+.company-info h4 {
+  font-weight: 100;
 }
 
 .canvas-white {
   width: 40%;
+  padding-bottom: 1.5rem;
 }
 
 .canvas-address {
   padding-left: 4rem;
+}
+
+.canvas-address p {
+  font-size: 12px;
+  line-height: 0.5rem;
 }
 
 .company-col {
@@ -155,4 +212,5 @@ a {
   padding-left: 4rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  color: #7b7b7b;
 }
