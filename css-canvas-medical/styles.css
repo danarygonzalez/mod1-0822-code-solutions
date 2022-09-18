@@ -8,6 +8,16 @@
   display: flex;
 }
 
+* {
+  font-family: Avenir, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
 a {
   padding-right: 1.5rem;
 }
@@ -31,6 +41,10 @@ a {
 .column-three-fourths {
   width: 60%;
   padding-left: 90px;
+}
+
+.column-one-half {
+  width: 50%;
 }
 
 .canvas-logo {
@@ -79,7 +93,7 @@ a {
 }
 
 .clinician-list {
-  background-color: lightgray;
+  background-color: #fafafa;
   padding-top: 2rem;
   padding-bottom: 4rem;
 }
@@ -102,4 +116,43 @@ a {
 .office {
   flex-basis: calc(100%/2);
   text-align: center;
+}
+
+.get-started {
+  position: relative;
+  left: 350px;
+  top: 40px;
+}
+
+.learn-more {
+  padding-left: 1rem;
+}
+
+.company-info {
+  background-color: #525351;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.canvas-white {
+  width: 40%;
+}
+
+.canvas-address {
+  padding-left: 4rem;
+}
+
+.company-col {
+  padding-left: 14rem;
+}
+
+.product-col {
+  padding-left: 8rem;
+}
+
+.privacy-terms {
+  background-color: #fafafa;
+  padding-left: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
