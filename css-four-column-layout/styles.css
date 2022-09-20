@@ -1,0 +1,46 @@
+* {
+  font-family: Barlow, sans-serif;
+  background-color: #f7f8fa;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fourth {
+  width: 25%;
+}
+
+.main-header {
+  justify-content: center;
+}
+
+.device-icon {
+  width: 100%;
+}
+
+.logo-icon {
+  width: 25%;
+  text-align: center;
+}
+
+.img-row {
+  text-align: center;
+}
+
+.header-row {
+  text-align: center;
+}
+
+.header-row h3 {
+  font-size: 14px;
+}
+
+.header-row p {
+  font-size: 12px;
+}
