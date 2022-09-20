@@ -50,7 +50,7 @@ a {
 
 .column-three-fourths {
   width: 60%;
-  padding-left: 90px;
+  padding-left: 120px;
 }
 
 .column-one-half {
@@ -78,46 +78,49 @@ a {
 }
 
 .hero-summary {
-  padding-bottom: 3rem;
+  position: relative;
   color: white;
 }
 
+.img-row {
+  padding: 50px 40px;
+}
+
 .img-hero {
-  width: 92%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  position: relative;
+  width: 100%;
 }
 
 .overlay {
   position: absolute;
-  top: 100px;
-  right: 340px;
-  bottom: 200px;
-  left: 294px;
-  background: linear-gradient(transparent, rgb(0 0 0 / 50%));
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 4px;
+  background-color: rgb(0 0 0 / 25%);
 }
 
 .img-h2 {
   position: absolute;
-  top: 150px;
-  left: 350px;
+  top: 30px;
+  left: 70px;
   font-weight: normal;
+  font-size: 35px;
+  width: 50%;
 }
 
 .img-p {
   position: absolute;
-  top: 200px;
-  left: 350px;
-  width: 30%;
+  top: 150px;
+  left: 70px;
+  width: 50%;
   font-size: 14px;
   line-height: 1.5rem;
 }
 
 .img-button {
   position: absolute;
-  top: 400px;
-  left: 350px;
+  top: 350px;
+  left: 70px;
   background-color: #294464;
   color: white;
   border-radius: 5px;
@@ -213,4 +216,10 @@ a {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #7b7b7b;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+  display: inherit;
 }
