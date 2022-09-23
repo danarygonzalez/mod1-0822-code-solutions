@@ -33,7 +33,7 @@ function getEvenNumbersToTwenty() {
 function repeatWord(word, times) {
   var count = 1;
   var repeated = '';
-  while (count < times) {
+  while (count <= times) {
     repeated += word;
     count++;
   }
@@ -43,7 +43,7 @@ function repeatWord(word, times) {
 // logEachCharacter function
 function logEachCharacter(string) {
   var i = 0;
-  for (i = 0; i < string.length; i++) {
+  for (; i < string.length; i++) {
     console.log(string[i]);
   }
 }
@@ -52,7 +52,7 @@ function logEachCharacter(string) {
 function doubleAll(numbers) {
   var doubled = [];
   var i = 0;
-  for (i = 0; i < numbers.length; i++) {
+  for (; i < numbers.length; i++) {
     doubled.push(numbers[i] * 2);
   }
   return doubled;
