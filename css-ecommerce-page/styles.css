@@ -1,0 +1,44 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fifth {
+  width: 20%;
+  margin-left: 1.5rem;
+}
+
+.header-align-center {
+  justify-content: center;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.column-one-fifth p {
+  font-size: 8px;
+  text-align: center;
+}
+
+.column-one-fifth del {
+  color: #d8d8d8;
+}
+
+.gray-font {
+  color: #d8d8d8;
+}
+
+.gray-box {
+  background-color: #fcefe4;
+  padding: 1px;
+  border-radius: 15%;
+}
