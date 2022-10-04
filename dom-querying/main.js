@@ -1,0 +1,12 @@
+console.log('hello, world');
+var firstHeader = document.querySelector('h1');
+console.log('Value of h1:', firstHeader);
+console.dir(firstHeader);
+var explanation = document.querySelector('#explanation');
+console.log('Value of explanation:', explanation);
+console.dir(explanation);
+var hint = document.querySelector('.hint');
+console.log('Value of hint:', hint);
+console.dir(hint);
+console.log('NodeList of p', document.querySelectorAll('p'));
+console.log('NodeList of example-link', document.querySelectorAll('.example-link'));
