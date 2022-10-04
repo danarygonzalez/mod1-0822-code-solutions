@@ -1,0 +1,67 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fifth {
+  width: 20%;
+  margin-left: 1.5rem;
+  min-height: 200px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.header-align-center {
+  justify-content: center;
+}
+
+.align-left {
+  font-size: 8px;
+  text-align: left;
+}
+
+.gray-font {
+  color: #d8d8d8;
+}
+
+.gray-box {
+  background-color: #fcefe4;
+  padding: 1px;
+  border-radius: 15%;
+}
+
+.background-center {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lv-bag-img {
+  background-image: url("images/lv-bag.jpg");
+}
+
+.dress1-img {
+  background-image: url("images/dress1.jpeg");
+}
+
+.key-img {
+  background-image: url("images/key.jpeg");
+}
+
+.dress2-img {
+  background-image: url("images/dress2.jpeg");
+}
+
+.ysl-bag-img {
+  background-image: url("images/ysl-bag.jpeg");
+}
