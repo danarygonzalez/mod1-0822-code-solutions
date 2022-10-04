@@ -36,7 +36,7 @@ button:focus {
 }
 
 button:active {
-  margin-top: 0.25rem;
+  transform: translateY(0.25rem);
 }
 
 .pokeball-wrapper:first-child > .pokeball {
