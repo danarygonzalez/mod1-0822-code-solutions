@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  font-family: Courier, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct-letter {
+  color: #18cd1b;
+}
+
+.incorrect-letter {
+  color: #f80606;
+}
+
+.marker {
+  border-bottom: solid black 3px;
+}
+
+.incorrect-marker {
+  border-bottom: solid #f80606 3px;
+}
